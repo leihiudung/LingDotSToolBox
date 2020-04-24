@@ -16,6 +16,7 @@
 		00AE52602452DF0A000AB712 /* LingDotSToolBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AE525F2452DF0A000AB712 /* LingDotSToolBoxTests.m */; };
 		00AE526B2452DF0A000AB712 /* LingDotSToolBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AE526A2452DF0A000AB712 /* LingDotSToolBoxUITests.m */; };
 		00AE527A2452E274000AB712 /* EncodeObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AE52792452E274000AB712 /* EncodeObject.m */; };
+		00AE528B2452F031000AB712 /* SinglePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AE528A2452F031000AB712 /* SinglePool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		00AE526C2452DF0A000AB712 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00AE52782452E274000AB712 /* EncodeObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EncodeObject.h; sourceTree = "<group>"; };
 		00AE52792452E274000AB712 /* EncodeObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EncodeObject.m; sourceTree = "<group>"; };
+		00AE52892452F031000AB712 /* SinglePool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SinglePool.h; sourceTree = "<group>"; };
+		00AE528A2452F031000AB712 /* SinglePool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SinglePool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 				00AE52442452DF05000AB712 /* AppDelegate.m */,
 				00AE52492452DF05000AB712 /* ViewController.h */,
 				00AE524A2452DF05000AB712 /* ViewController.m */,
+				00AE52892452F031000AB712 /* SinglePool.h */,
+				00AE528A2452F031000AB712 /* SinglePool.m */,
 				00AE52782452E274000AB712 /* EncodeObject.h */,
 				00AE52792452E274000AB712 /* EncodeObject.m */,
 				00AE524C2452DF05000AB712 /* Main.storyboard */,
@@ -270,6 +275,7 @@
 				00AE524B2452DF05000AB712 /* ViewController.m in Sources */,
 				00AE52452452DF05000AB712 /* AppDelegate.m in Sources */,
 				00AE527A2452E274000AB712 /* EncodeObject.m in Sources */,
+				00AE528B2452F031000AB712 /* SinglePool.m in Sources */,
 				00AE52562452DF09000AB712 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
